@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QR Code - dkingcyber</title>
+    <title>QR Code - Devin King</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" href="images/favicon.png">
     <style>
         body {
             display: flex;
@@ -14,14 +15,20 @@
             margin: 0;
             font-family: Arial, sans-serif;
             background-color: #f4f4f9;
+            padding: 20px;
+            box-sizing: border-box;
         }
 
         .container {
             text-align: center;
+            max-width: 90%;
+            max-height: 90%;
         }
 
         .container img {
             max-width: 100%;
+            max-height: 100%;
+            width: auto;
             height: auto;
         }
 
@@ -29,27 +36,13 @@
             margin-top: 20px;
             font-size: 24px;
         }
-
-        .nav-links a {
-            display: block;
-            color: #1a73e8;
-            text-decoration: none;
-            margin: 10px 0;
-            transition: color 0.3s;
-        }
-
-        .nav-links a:hover {
-            color: #0056b3;
-        }
+        
     </style>
 </head>
 <body>
     <div class="container">
         <img src="images/qr.png" alt="QR Code for dkingcyber.github.io">
         <h1>Scan this QR code to visit dkingcyber.github.io</h1>
-        <div class="nav-links">
-            <a href="index.html">Home</a>
-        </div>
     </div>
 </body>
 </html>
