@@ -65,6 +65,12 @@ nav ul li a:hover {
     display: block;
 }
 
+ul {
+    margin-left: 20px;
+    padding-left: 20px; 
+    list-style-type: disc;
+}
+
 .container {
     width: 80%;
     margin: 40px auto;
